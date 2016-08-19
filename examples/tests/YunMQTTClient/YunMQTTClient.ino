@@ -1,6 +1,6 @@
 #include <Bridge.h>
-#include <YunMQTTClient.h>
-#include <MQTTTest.h>
+#include <YunPahoMQTTClient.h>
+#include <PahoMQTTTest.h>
 
 YunMQTTClient client;
 MQTTTest<YunMQTTClient> test;

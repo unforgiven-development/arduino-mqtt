@@ -1,7 +1,7 @@
 #include <Bridge.h>
 #include <YunClient.h>
-#include <MQTTClient.h>
-#include <MQTTTest.h>
+#include <PahoMQTTClient.h>
+#include <PahoMQTTTest.h>
 
 YunClient net;
 MQTTClient client;
