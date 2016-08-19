@@ -1,4 +1,4 @@
-#include "MQTTClient.h"
+#include "PahoMQTTClient.h"
 
 void MQTTClient_messageHandler(MQTT::MessageData &messageData) {
   MQTT::Message &message = messageData.message;

@@ -5,6 +5,8 @@ git clone git://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.embedded-c.gi
 cp -r ./lib/MQTTPacket/src/* ./src/lib
 cp -r ./lib/MQTTClient/src/* ./src/lib
 
+# TODO: add commands to rename library files
+
 # remove examples
 rm -rf ./src/lib/arduino
 rm -rf ./src/lib/linux

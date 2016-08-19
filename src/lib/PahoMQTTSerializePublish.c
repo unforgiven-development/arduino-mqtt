@@ -15,7 +15,7 @@
  *    Ian Craggs - fix for https://bugs.eclipse.org/bugs/show_bug.cgi?id=453144
  *******************************************************************************/
 
-#include "MQTTPacket.h"
+#include "PahoMQTTPacket.h"
 
 #include <string.h>
 

@@ -16,7 +16,7 @@
 // https://github.com/256dpi/arduino-mqtt
 
 #include <Bridge.h>
-#include <YunMQTTClient.h>
+#include <YunPahoMQTTClient.h>
 
 YunMQTTClient client;
 

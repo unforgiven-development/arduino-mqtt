@@ -15,7 +15,7 @@
  *    Sergio R. Caprile - non-blocking packet read functions for stream transport
  *******************************************************************************/
 
-#include "MQTTPacket.h"
+#include "PahoMQTTPacket.h"
 
 #include <string.h>
 

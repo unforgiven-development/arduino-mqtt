@@ -9,7 +9,7 @@
 
 #include <Bridge.h>
 #include <YunClient.h>
-#include <MQTTClient.h>
+#include <PahoMQTTClient.h>
 
 YunClient net;
 MQTTClient client;

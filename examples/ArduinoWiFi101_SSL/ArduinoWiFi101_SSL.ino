@@ -15,7 +15,7 @@
 #include <SPI.h>
 #include <WiFi101.h>
 #include <WiFiSSLClient.h>
-#include <MQTTClient.h>
+#include <PahoMQTTClient.h>
 
 char *ssid = "ssid";
 char *pass = "pass";

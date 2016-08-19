@@ -88,10 +88,10 @@ typedef struct
 
 int MQTTstrlen(MQTTString mqttstring);
 
-#include "MQTTConnect.h"
-#include "MQTTPublish.h"
-#include "MQTTSubscribe.h"
-#include "MQTTUnsubscribe.h"
+#include "PahoMQTTConnect.h"
+#include "PahoMQTTPublish.h"
+#include "PahoMQTTSubscribe.h"
+#include "PahoMQTTUnsubscribe.h"
 
 int MQTTSerialize_ack(unsigned char* buf, int buflen, unsigned char type, unsigned char dup, unsigned short packetid);
 int MQTTDeserialize_ack(unsigned char* packettype, unsigned char* dup, unsigned short* packetid, unsigned char* buf, int buflen);

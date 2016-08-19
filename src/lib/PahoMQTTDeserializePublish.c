@@ -14,7 +14,7 @@
  *    Ian Craggs - initial API and implementation and/or initial documentation
  *******************************************************************************/
 
-#include "MQTTPacket.h"
+#include "PahoMQTTPacket.h"
 #include <string.h>
 
 #define min(a, b) ((a < b) ? 1 : 0)

@@ -1,4 +1,4 @@
-#include "YunMQTTClient.h"
+#include "YunPahoMQTTClient.h"
 
 #ifdef YUN_MQTT_CLIENT_ENABLED
 

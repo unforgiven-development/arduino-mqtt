@@ -19,7 +19,7 @@
 #define MQTTCLIENT_H
 
 #include "FP.h"
-#include "MQTTPacket.h"
+#include "PahoMQTTPacket.h"
 #include "stdio.h"
 
 #if !defined(MQTTCLIENT_QOS1)

@@ -14,7 +14,7 @@
  *    Ian Craggs - initial API and implementation and/or initial documentation
  *******************************************************************************/
 
-#include "MQTTPacket.h"
+#include "PahoMQTTPacket.h"
 
 #include <string.h>
 

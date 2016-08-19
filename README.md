@@ -12,6 +12,10 @@ The first release of the library only supports QoS0 and the basic features to ge
 
 *Or even better use the Library Manager in the Arduino IDE.*
 
+## Modifications
+
+All of the files in the library following the naming format __MQTT...__ been renamed to __PahoMQTT...__ to resolve naming conflicts with other Arduino libraries. No other changes have been made as of now.
+
 ## Compatibility
 
 The following examples show how you can use the library with various Arduino compatible hardware:

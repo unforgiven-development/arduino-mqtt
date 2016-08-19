@@ -8,7 +8,7 @@
 // https://github.com/256dpi/arduino-mqtt
 
 #include <WiFi.h>
-#include <MQTTClient.h>
+#include <PahoMQTTClient.h>
 
 char *ssid = "ssid";
 char *pass = "pass";

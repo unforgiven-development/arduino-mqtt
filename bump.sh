@@ -11,5 +11,5 @@ rm library.properties.bak
 sed -i '.bak' "s/$old/$new/g" README.md
 rm README.md.bak
 
-sed -i '.bak' "s/$old/$new/g" src/YunMQTTClient.cpp
-rm src/YunMQTTClient.cpp.bak
+sed -i '.bak' "s/$old/$new/g" src/YunPahoMQTTClient.cpp
+rm src/YunPahoMQTTClient.cpp.bak
