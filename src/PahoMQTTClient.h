@@ -2,10 +2,10 @@
 #define MQTT_CLIENT_H
 
 #ifndef MQTT_BUFFER_SIZE
-#define MQTT_BUFFER_SIZE 128
+#define MQTT_BUFFER_SIZE 384
 #endif
 
-#define MQTTCLIENT_QOS1 0
+#define MQTTCLIENT_QOS1 1
 #define MQTTCLIENT_QOS2 0
 
 #include <Arduino.h>
